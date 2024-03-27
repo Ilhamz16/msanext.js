@@ -1,0 +1,61 @@
+/* style.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+    min-height: 100vh; /* Ensure full height */
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+.card p {
+    margin: 5px 0; /* Adjust spacing between paragraphs */
+}
+
+.add-activity-form {
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+}
+
+.add-activity-form h2 {
+    margin-bottom: 20px;
+}
+
+.add-activity-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-activity-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.add-activity-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-activity-form button:hover {
+    background-color: #0056b3;
+}
+
